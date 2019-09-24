@@ -1,0 +1,121 @@
+/*Main Style*/
+body { background-color: #111111;}
+@font-face {font-family:'minimalhard2'; src:url(source/mh2_.ttf) format('truetype');}
+
+#logo_type{top:20px; left:4%; z-index: 3; position: fixed;}
+#logoSpread{font-family: "minimalhard2"; font-weight: bolder; font-size: 1.0vw; position: fixed; color: white; z-index: 3; top: 25px; padding: 0.1vw 2vw 0.1vw 0.1vw; opacity: 0; left: 6%; visibility: hidden; transition: all 0.15s ease-in; width:400px; }
+#logo_type:hover #logoSpread {opacity: 1; left: 7%; visibility: visible;}
+
+#nav_menu{position: fixed; margin-top: 16px;}
+#nav_menu {margin-left: 73%; z-index: 3;}
+#nav_menu tr {color:white;}
+#nav_menu tr th {font-family: "minimalhard2"; font-weight: lighter; font-size: 1.0vw; padding: 0.1vw 2vw 0.1vw 0.1vw;}
+svg {margin-top: -10px; position: fixed; z-index: 2; left:-8px;}
+
+#nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
+#sub-menu {position: absolute; background: #222222; opacity: 0; visibility: hidden; transition: all 0.15s ease-in; font-family: "Noto Serif KR", serif; font-size: 0.8vw;}
+#sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
+#sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
+
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:5000px; width: 600px; height:60px; margin:auto; position: relative; text-align: center;}
+#monitor {top: 25px; width: 100px; height: 40px; background: red; position: fixed; right: 0px; line-height: 40px; color: white; z-index: 5; }
+
+/*01*/
+#aboutCategory_1{font-family: "Noto Serif KR", serif; font-size:2.0vw; opacity:0; color: #cccccc; top:360px; margin:auto; left: 59%; position: absolute; text-align: left; line-height:1.6; animation: move1 2s forwards;}
+@keyframes move1 {
+  0%{opacity:0; left: 70%;}
+  100%{opacity:1; left: 59%;}}
+
+#aboutContents_1{font-family: "Noto Serif KR", serif; font-size:0.7vw; width: 440px; opacity: 0; color: #cccccc; top:530px; margin:auto; left: 59%; position: absolute; text-align: left; line-height:2; animation: opc1 1s 2s forwards;}
+@keyframes opc1 {
+  0%{opacity:0;}
+  100%{opacity:1;}}
+
+#introVideo{left: 20%; position:relative; margin:auto; top:13vw; width: 35vw; height: 440px; animation: vd_ani 1s 1.5s forwards; opacity: 0;}
+@keyframes vd_ani {
+  0%{opacity:0;}
+  100%{opacity:1;}}
+
+#category_1{font-family: "minimalhard2", serif; font-size:1.5vw; opacity:0; color: #cccccc; top:520px; margin:auto; left: 13%; position: absolute; text-align: left; animation: ct1 1.5s forwards;}
+@keyframes ct1 {
+    0%{opacity:0; transform: rotate( 0deg);}
+    100%{opacity:1; transform: rotate( -90deg);}}
+
+#aCt1_bg{position:relative; margin:auto; width: 100%; opacity: 0; top:-450px; z-index:-1; height: 1050px; animation: bg_ani1 1.5s forwards;}
+@keyframes bg_ani1 {
+  0%{opacity:0;}
+  100%{opacity:0.3;}}
+
+/*02*/
+#aboutCategory_2{font-family: "Noto Serif KR", serif; font-size:2.0vw; opacity:0; color: #cccccc; top:1410px; margin:auto; left: 20%; position: absolute; text-align: left; line-height:1.6; animation: move2 2s forwards paused;}
+@keyframes move2 {
+  0%{opacity:0; left: 8%;}
+  100%{opacity:1; left: 20%;}}
+
+#aboutContents_2{font-family: "Noto Serif KR", serif; font-size:0.7vw; width: 440px; opacity: 0; color: #cccccc; top:1510px; margin:auto; left: 20%; position: absolute; text-align: left; line-height:2; animation: opc1 1s 2s forwards paused;}
+@keyframes opc2 {
+  0%{opacity:0;}
+  100%{opacity:1;}}
+
+#category_2{font-family: "minimalhard2", serif; font-size:1.5vw; opacity:0; color: #cccccc; top:1550px; margin:auto; left: 85%; position: absolute; text-align: left; animation: ct2 2s forwards paused; transform: rotate( -90deg );}
+@keyframes ct2 {
+  0%{opacity:0; transform: rotate( 0deg);}
+  100%{opacity:1; transform: rotate( 90deg);}}
+
+#aCt2_Picture{left: 46%; position:relative; margin:auto; top:-65vw; width: 35vw; height: 600px; animation: ct2_ani 1s 1.5s forwards paused; opacity: 0;}
+@keyframes ct2_ani {
+  0%{opacity:0;}
+  100%{opacity:0.4;}}
+
+#aCt2_video{position:relative; margin:auto; top:-455px; z-index:-1; width: 100%; animation: vd_ani 1s 1.5s forwards paused; opacity: 0;}
+@keyframes vd_ani {
+  0%{opacity:0;}
+  100%{opacity:1;}}
+
+/*03*/
+#aboutCategory_3{font-family: "Noto Serif KR", serif; font-size:2.0vw; opacity:0; color: #cccccc; top:2650px; margin:auto; left: 59%; position: absolute; text-align: left; line-height:1.6; animation: move3 2s forwards paused;}
+@keyframes move3 {
+    0%{opacity:0; left: 70%;}
+    100%{opacity:1; left: 59%;}}
+
+#aboutContents_3{font-family: "Noto Serif KR", serif; font-size:0.7vw; width: 440px; opacity: 0; color: #cccccc; top:2750px; margin:auto; left: 59%; position: absolute; text-align: left; line-height:2; animation: opc3 1s 2s forwards paused;}
+@keyframes opc3 {
+    0%{opacity:0;}
+    100%{opacity:1;}}
+
+#category_3{font-family: "minimalhard2", serif; font-size:1.5vw; opacity:0; color: #cccccc; top:2810px; margin:auto; left: 13%; position: absolute; text-align: left; animation: ct3 2s forwards paused;}
+@keyframes ct3 {
+  0%{opacity:0; transform: rotate( 0deg);}
+  100%{opacity:1; transform: rotate( -90deg);}}
+
+#aCt3_List_1:hover{left: 20%; position:relative; margin:auto; top:-1420px; width: 200px; height: 600px; opacity: 1;}
+
+#aCt3_List_2{left: 20%; position:relative; margin:auto; top:-1420px; width: 200px; height: 600px; opacity: 1;}
+
+#aCt3_List_3{left: 20%; position:relative; margin:auto; top:-1420px; width: 200px; height: 600px; opacity: 1;}
+
+#home__slider{animation: slider_ani 1s 1.5s forwards paused; opacity: 0;}
+@keyframes slider_ani {
+  0%{opacity:0;}
+  100%{opacity:1;}}
+
+#aCt3_bg{position:relative; margin:auto; width: 100%; opacity: 0; top:-1770px; z-index:-1; height: 1200px; animation: bg_ani1 1.5s forwards paused; z-index: -5;}
+@keyframes bg_ani1 {
+  0%{opacity:0;}
+  100%{opacity:0.3;}}
+
+/*04*/
+#aboutCategory_4{font-family: "Noto Serif KR", serif; font-size:2.0vw; opacity:0; color: #cccccc; top:3820px; margin:auto; left: 20%; position: absolute; text-align: left; line-height:1.6; animation: move2 2s forwards paused;}
+@keyframes move4 {
+      0%{opacity:0; left: 8%;}
+      100%{opacity:1; left: 20%;}}
+
+#aboutContents_4{font-family: "Noto Serif KR", serif; font-size:0.7vw; width: 440px; opacity: 0; color: #cccccc; top:3930px; margin:auto; left: 20%; position: absolute; text-align: left; line-height:2; animation: opc1 2s 2s forwards paused;}
+@keyframes opc4 {
+      0%{opacity:0;}
+      100%{opacity:1;}}
+
+#category_4{font-family: "minimalhard2", serif; font-size:1.5vw; opacity:0; color: #cccccc; top:4000px; margin:auto; left: 85%; position: absolute; text-align: left; animation: ct2 2s forwards paused; transform: rotate( -90deg );}
+@keyframes ct4 {
+      0%{opacity:0; transform: rotate( 0deg);}
+      100%{opacity:1; transform: rotate( 90deg);}}
