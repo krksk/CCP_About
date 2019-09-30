@@ -4,7 +4,7 @@ window.onscroll = function(){
     aboutCategory_2.style.animationPlayState = "running";
     aboutContents_2.style.animationPlayState = "running";
     category_2.style.animationPlayState = "running";
-    aCt2_video.style.animationPlayState = "running";
+    aCt2_bg.style.animationPlayState = "running";
     aCt2_Picture.style.animationPlayState = "running";
     }
     if(t>1400){
@@ -18,6 +18,7 @@ window.onscroll = function(){
     aboutCategory_4.style.animationPlayState = "running";
     aboutContents_4.style.animationPlayState = "running";
     category_4.style.animationPlayState = "running";
+    aCt4_bg.style.animationPlayState = "running";
     }
     monitor.innerHTML = t + "px";
     }
