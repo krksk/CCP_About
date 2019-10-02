@@ -19,6 +19,7 @@ window.onscroll = function(){
     aboutContents_4.style.animationPlayState = "running";
     category_4.style.animationPlayState = "running";
     aCt4_bg.style.animationPlayState = "running";
+    aCt4_pic.style.animationPlayState = "running";
     }
     monitor.innerHTML = t + "px";
     }
