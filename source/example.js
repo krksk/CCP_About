@@ -3,7 +3,7 @@ window.onscroll = function(){
     if(t>100){
     aCt2_Picture.style.animationPlayState = "running";
     }
-    if(t<10){
+    if(t>100){
     aCt3_Picture_1.style.animationPlayState = "running";
     }
     if(t>100){
