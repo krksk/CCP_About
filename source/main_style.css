@@ -26,7 +26,7 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
 #menu3:hover {text-decoration: underline;}
 #menu4:hover {text-decoration: underline;}
 
-#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:4300px; width: 600px; height:60px; margin:auto; position: relative; text-align: center;}
+
 
 
 
@@ -83,3 +83,4 @@ p {margin-top:-10%; font-size: 0.7vw; color: #cccccc; line-height: 2.0; width: 5
 #aCt4_pic{position:relative; left:39%; margin: 0px auto; top:0.5vw; width: 25vw; height: 22vw; animation: opc1 2s 2s forwards;}
   #aCt4_pic:hover{transition:0.7s; top:0vw;}
 #aCt4_contents{position:absolute; font-size: 0.8vw; color: #cccccc; text-decoration:none; margin-left:48.5%; top:22vw;}
+#footer{font-size:14px; width: 600px; color: #cccccc; height:60px; top:50px; display: block; margin:auto; position: relative; text-align: center;}
